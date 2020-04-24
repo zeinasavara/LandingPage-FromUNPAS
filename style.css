@@ -1,16 +1,25 @@
-/* ========== MOBILE VERSION ========== */
+/* ========== ALL / MOBILE VERSION ========== */
+
 /* Navbar */
 .navbar-brand {
     font-family: Viga;
     font-size: 32px;
 }
-/* End Navbar */  
+/* End Navbar */
 
-/* ========== END MOBILE VERSION ========== */
+/* Utility */
+.tombol {
+    text-transform: uppercase;
+    border-radius: 40px;
+}
+/* End Utility */
+
+/* ========== END ALL / MOBILE VERSION ========== */
 
 
 
 /* ========== DESKTOP VERSION ========== */
+
 @media (min-width: 992px) {
     /* Navbar */
     .navbar-brand {
@@ -27,7 +36,12 @@
         content: '';
         display: block;
         border-bottom: 3px solid #0B63DC;
+        width: 50%;
+        margin: auto;
+        padding-bottom: 5px;
+        margin-bottom: -8px;
     }
     /* End Navbar */    
 }
+
 /* ========== END DESKTOP VERSION ========== */
