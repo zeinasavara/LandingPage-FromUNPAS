@@ -7,6 +7,28 @@
 }
 /* End Navbar */
 
+/* Jumbotron */
+.jumbotron{
+    background-image: url(img/jumbotron-bg.jpg);
+    background-size: cover;
+    height: 640px;
+    text-align: center;
+}
+
+.jumbotron .display-4 {
+    color: white;
+    margin-top: 150px;
+    font-weight: 200;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.7);
+    font-size: 62px;
+    margin-bottom: 30px;
+}
+
+.jumbotron .display-4 span {
+    font-weight: 500;
+}
+/* End Jumbotron */
+
 /* Utility */
 .tombol {
     text-transform: uppercase;
@@ -22,9 +44,9 @@
 
 @media (min-width: 992px) {
     /* Navbar */
-    .navbar-brand {
-        font-family: Viga;
-        font-size: 32px;
+    .navbar-brand, .nav-link {
+        color: white !important;
+        text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.7);
     }
 
     .nav-link {
@@ -41,7 +63,13 @@
         padding-bottom: 5px;
         margin-bottom: -8px;
     }
-    /* End Navbar */    
+    /* End Navbar */ 
+    
+    /* Jumbotron */
+    .jumbotron {
+        margin-top: -75px;
+    }
+    /* End Jumbotron */
 }
 
 /* ========== END DESKTOP VERSION ========== */
