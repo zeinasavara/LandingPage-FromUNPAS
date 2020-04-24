@@ -1,5 +1,10 @@
 /* ========== MOBILE VERSION ========== */
-
+/* Navbar */
+.navbar-brand {
+    font-family: Viga;
+    font-size: 32px;
+}
+/* End Navbar */  
 
 /* ========== END MOBILE VERSION ========== */
 
@@ -16,6 +21,12 @@
     .nav-link {
         text-transform: uppercase;
         margin-right: 30px;
+    }
+
+    .nav-link:hover::after {
+        content: '';
+        display: block;
+        border-bottom: 3px solid #0B63DC;
     }
     /* End Navbar */    
 }
