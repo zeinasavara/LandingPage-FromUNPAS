@@ -119,8 +119,15 @@
 }
 
 .testimonial figure img {
+    width: 60px;
+    margin: 20px 10px 5px;
+    opacity: 0.5;
+}
+
+.testimonial figure img.utama {
     width: 90px;
-    margin-top: 20px;
+    opacity: 1;
+    margin-top: 5px;
 }
 
 .testimonial figure h5 {
@@ -140,6 +147,17 @@
     text-align: center;
 }
 /* End Testimonial */
+
+/* Footer */
+.footer {
+    margin-top: 100px;
+}
+
+.footer p {
+    color: #ACACAC;
+    font-size: 18px;
+}
+/* End Footer */
 
 /* Utility */
 .tombol {
